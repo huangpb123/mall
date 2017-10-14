@@ -1,0 +1,13 @@
+#root {
+	width: 578px;
+	height: 690px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #333;
+	position: relative;
+	border: 1px solid #ccc;
+}
+a {
+	color: #333;
+	cursor: pointer;
+}

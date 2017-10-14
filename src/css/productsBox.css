@@ -1,0 +1,28 @@
+.productsBox {
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+.cityName {
+	margin: 20px 0;
+	font-size: 18px;
+}
+.products {
+	width: 426px;
+}
+.products>li {
+	float: left;
+	margin-right: 15px;
+}
+.products>li>a {
+	display: block;
+	width: 160px;
+	height: 165px;
+	padding-top: 22px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #fff;
+}
+.products .dishName {
+	margin-top: 12px;
+	color: #777;
+}

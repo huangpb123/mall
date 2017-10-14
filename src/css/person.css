@@ -1,0 +1,35 @@
+.personBox>.header {
+	height: 150px;
+	padding: 25px 70px;
+	color: #fff;
+	margin-bottom: 10px;
+	background: linear-gradient(to right, #f5811f, #f93e05);
+	background: -webkit-linear-gradient(left, #f5811f, #f93e05);
+	background: -o-linear-gradient(right, #f5811f, #f93e05);
+	background: -moz-linear-gradient(right, #f5811f, #f93e05);
+}
+.personBox>.header>.lf {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.personBox>.header>.lf>img {
+	width: 100%;
+}
+.personBox>.header>span {
+	font-size: 20px;
+	position: relative;
+	top: 40px;
+	left: 25px;
+}
+.personBox>.locationBox {
+	padding: 20px;
+}
+.personBox .location {
+	padding: 20px;
+	background-color: #eee;
+}
+.personBox .location .user {
+	margin-bottom: 10px;
+}

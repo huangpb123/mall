@@ -1,0 +1,19 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 576px;
+	background-color: #eee;
+}
+.footer>li{
+	display: inline-block;
+	width: 33.3%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.footer img {
+	width: 30px;
+	position: relative;
+	top: 8px;
+}
