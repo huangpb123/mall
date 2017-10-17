@@ -21,7 +21,7 @@ export default class Home extends React.Component {
 	}
 	
 	render() {
-		let homeBody = '';
+		var homeBody = '';
 		if(this.state.data){
 			homeBody = (
 				<div className="homeBody clear">
@@ -43,7 +43,7 @@ export default class Home extends React.Component {
 	componentDidMount() {
 //		sessionStorage.clear();
 		/*从后台获取数据赋值给state*/
-		const response = {
+		var response = {
 			ZJ: [
 				{
 					cityName: "杭州特产",
@@ -64,18 +64,18 @@ export default class Home extends React.Component {
 			]
 		};
 		
-		const cities = [
+		var cities = [
 				{name: "浙江特产", value: "ZJ"},
 				{name: "四川特产", value: "SC"},
-				{name: "广东特产", value: "GD"},
+			/*	{name: "广东特产", value: "GD"},
 				{name: "江西特产", value: "JX"},
 				{name: "北京特产", value: "BJ"},
 				{name: "湖南特产", value: "HN"},
-				{name: "上海特产", value: "SH"},
+				{name: "上海特产", value: "SH"}, */
 			];
 		
 		/*渲染出左边城市列表的函数*/
-		const createCityList = () => {
+		var createCityList = () => {
 			let activeCityClass;
 			var cityList = cities.map((city,index) => {
 				activeCityClass = this.state.active === city.value ? "active" : "";

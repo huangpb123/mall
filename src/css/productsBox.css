@@ -1,28 +1,31 @@
 .productsBox {
-	padding-left: 15px;
-	padding-bottom: 20px;
+	padding-left: .15rem;
+	padding-bottom: .2rem;
 }
 .cityName {
-	margin: 20px 0;
-	font-size: 18px;
+	margin: .2rem 0;
+	font-size: .18rem;
 }
 .products {
-	width: 426px;
+	width: 4.26rem;
 }
 .products>li {
 	float: left;
-	margin-right: 15px;
+	margin-right: .15rem;
 }
 .products>li>a {
 	display: block;
-	width: 160px;
-	height: 165px;
-	padding-top: 22px;
-	font-size: 16px;
+	width: 1.6rem;
+	height: 1.65rem;
+	padding-top: .22rem;
+	font-size: .16rem;
 	text-align: center;
 	background-color: #fff;
 }
+.products>li>a>img {
+	width: 1.5rem;
+}
 .products .dishName {
-	margin-top: 12px;
+	margin-top: .12rem;
 	color: #777;
 }

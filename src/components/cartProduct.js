@@ -13,8 +13,8 @@ export default class CartProduct extends React.Component {
 	
 	/*单个物品复选框点击*/
 	handleClick() {
-		const isChecked = this.inputTag.checked;
-		const value = this.props.productMSG.price * this.state.count;
+		var isChecked = this.inputTag.checked;
+		var value = this.props.productMSG.price * this.state.count;
 		this.props.inputClick(isChecked, value);
 	}
 	
@@ -42,7 +42,7 @@ export default class CartProduct extends React.Component {
 	}
 	
 	render() {
-		const item = this.props.productMSG;
+		var item = this.props.productMSG;
 		return (
 			<div className="item clear">
 				<input type="checkbox" className="lf" ref={(input) => {this.inputTag = input}} onClick={this.handleClick}/>

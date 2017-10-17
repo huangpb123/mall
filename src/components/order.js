@@ -56,8 +56,8 @@ export default class Order extends React.Component {
 	}
 	
 	componentDidMount() {
-		const data = JSON.parse(sessionStorage.getItem("current"));
-		const html = data.map((item) => (
+		var data = JSON.parse(sessionStorage.getItem("current"));
+		var html = data.map((item) => (
 			<OrderProduct productMSG={item} key={item.id}/>
 		));
 		this.setState({html: html});

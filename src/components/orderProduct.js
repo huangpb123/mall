@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class OrderProduct extends React.Component {
 	render() {
-		const data = this.props.productMSG;
+		var data = this.props.productMSG;
 		return (
 			<div>
 				<div className="clear">

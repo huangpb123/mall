@@ -1,6 +1,7 @@
 .homeBody {
 	border-top: 2px solid #ccc;
 	background-color: #eee;
+	min-height: 7rem;
 }
 .cityList>li {
 	border-bottom: 1px solid #ccc;
@@ -9,10 +10,10 @@
 .cityList>li>a {
 	position: relative;
 	display: block;
-	width: 135px;
-	height: 75px;
-	line-height: 75px;
-	font-size: 18px;
+	width: 1.35rem;
+	height: .75rem;
+	line-height: .75rem;
+	font-size: .18rem;
 	font-weight: 500;
 	text-align: center;
 }
@@ -25,7 +26,7 @@
 	top: 0;
 	left: 0;
 	content: "";
-	width: 7px;
-	height: 75px;
+	width: .07rem;
+	height: .75rem;
 	background-color: #960303;
 }

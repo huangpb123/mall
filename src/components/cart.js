@@ -30,7 +30,7 @@ export default class Cart extends React.Component {
 		}
 		
 		/* 创建购物车里面物品的html */
-		const html = lists.map((item, index) => (
+		var html = lists.map((item, index) => (
 			<CartProduct productMSG={item} index={index} inputClick={this.inputClick} addDeleteCount={this.addDeleteCount} deleteItemFather={this.deleteItemFather} key={item.id}/>
 		));
 		
@@ -65,8 +65,8 @@ export default class Cart extends React.Component {
 	
 	deleteItemFather(isChecked, id) {
 		if(isChecked){
-			const product = JSON.parse(sessionStorage.getItem(id));
-			const price = product.price * product.count;
+			var product = JSON.parse(sessionStorage.getItem(id));
+			var price = product.price * product.count;
 			this.setState((prevState) => ({total: formatePrice(Number(prevState.total) -　price)}));
 		}
 		sessionStorage.removeItem(id);
@@ -75,7 +75,7 @@ export default class Cart extends React.Component {
 	
 	/*全选*/
 	allPick(event) {
-		const inputs = document.querySelectorAll('.cartContainer input');
+		var inputs = document.querySelectorAll('.cartContainer input');
 		if(event.target.checked){
 			for(var i=0; i<inputs.length; i++){
 				inputs[i].checked = true;
@@ -83,7 +83,7 @@ export default class Cart extends React.Component {
 			var total = 0;
 			for(var key in sessionStorage) {
 				if(key !== "current") {
-					const item = JSON.parse(sessionStorage[key]);
+					var item = JSON.parse(sessionStorage[key]);
 					total += item.count * item.price;
 				}
 			}
@@ -101,11 +101,11 @@ export default class Cart extends React.Component {
 		if(this.state.total === "0.00") {
 			alert("您没有购买任何物品!");
 		}else {
-			const inputs = document.querySelectorAll('.cartBox .item>input');
+			var inputs = document.querySelectorAll('.cartBox .item>input');
 			var products = [];
 			for(var i=0; i<inputs.length; i++){
 				if(inputs[i].checked){
-					const item = sessionStorage.getItem(this.state.data[i].id);
+					var item = sessionStorage.getItem(this.state.data[i].id);
 					products.push(JSON.parse(item));
 				}
 			}

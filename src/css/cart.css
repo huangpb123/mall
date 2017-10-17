@@ -1,10 +1,10 @@
 .cartBox>.cartHeader {
 	position: relative;
-	height: 74px;
-	line-height: 74px;
+	height: .74rem;
+	line-height: .74rem;
 	text-align: center;
-	font-size: 21px;
-	margin-bottom: 25px;
+	font-size: .21rem;
+	margin-bottom: .25rem;
 	color: #fff;
 	background: linear-gradient(to right, #f5811f, #f93e05);
 	background: -webkit-linear-gradient(left, #f5811f, #f93e05);
@@ -12,47 +12,50 @@
 	background: -moz-linear-gradient(right, #f5811f, #f93e05);
 }
 .cartBox>.cartHeader>img {
-	width: 24px;
+	width: .24rem;
 	position: absolute;
-	top: 25px;
-	left: 20px;
+	top: .25rem;
+	left: .2rem;
 }
 .cartBox>.cartContainer {
-	height: 508px;
+	min-height: 5.08rem;
 	overflow: auto;
 }
 .cartBox .item {
-	padding: 15px;
-	margin-bottom: 10px;
+	padding: .15rem;
+	margin-bottom: .1rem;
 	position: relative;
 	background-color: #f3f3f3;
 }
+.cartBox .item div.clear img {
+	width: 1.5rem;
+}
 .cartBox .item>img {
-	width: 18px;
+	width: .18rem;
 	position: absolute;
-	top: 56px;
-	right: 15px;
+	top: .56rem;
+	right: .15rem;
 	display: none;
 }
 .cartBox .item:hover>img {
 	display: block;
 }
 .cartBox .item>input {
-	width: 15px;
-	height:15px;
-	margin-right: 15px;
+	width: .15rem;
+	height: .15rem;
+	margin-right: .15rem;
 	position: relative;
-	top: 35px;
+	top: .35rem;
 }
 
 .cartBox .detail {
-	width: 325px;
-	margin-left: 15px;
+	width: 3.25rem;
+	margin-left: .15rem;
 }
 .cartBox .returned {
-	font-size: 14px;
+	font-size: .14rem;
 	display: inline-block;
-	margin: 10px 0 15px;
+	margin: .1rem 0 .15rem;
 	color:red;
 	border: 1px solid red;
 }
@@ -60,26 +63,26 @@
 	color: red;
 }
 .cartBox .detail>.price>.rt {
-	font-size: 16px;
-	margin-top: 6px;
+	font-size: .16rem;
+	margin-top: .06rem;
 	color: #333;
 }
 .cartBox .detail>.price>span {
-	font-size: 22px;
+	font-size: .22rem;
 }
 
 .cartBox .payBox {
-	width: 576px;
+	width: 5.76rem;
 	background-color: #fff;
-	position: absolute;
-	bottom: 45px;
+	position: fixed;
+	bottom: .45rem;
 	border-top: 1px solid #ddd;
 }
 .cartBox .payBox>li {
 	float: left;
 	width: 20%;
-	height: 35px;
-	line-height: 35px;
+	height: .35rem;
+	line-height: .35rem;
 }
 .cartBox .payBox>li:nth-child(2) {
 	width:60%;
@@ -97,13 +100,13 @@
 	background: -moz-linear-gradient(right, #f5811f, #f93e05);
 }
 .cartBox .payBox input {
-	width: 15px;
-	height: 15px;
+	width: .15rem;
+	height: .15rem;
 }
 .cartBox .allPick {
-	padding-left: 15px;
+	padding-left: .15rem;
 }
 .cartBox .total {
-	margin-left: 10px;
+	margin-left: .1rem;
 	color: #f93e05;
 }

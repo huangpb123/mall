@@ -121,6 +121,6 @@ ul, ol{
 }
 
 input, button {
-	font-size: 16px;
+	font-size: .16rem;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;;
 }

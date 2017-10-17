@@ -1,11 +1,11 @@
 #root {
-	width: 578px;
-	height: 690px;
+	width: 5.78rem;
+	/*height: 6.9rem;*/
 	margin: 0 auto;
-	font-size: 16px;
+	font-size: .16rem;
 	color: #333;
 	position: relative;
-	border: 1px solid #ccc;
+	/*border: 1px solid #ccc;*/
 }
 a {
 	color: #333;

@@ -1,55 +1,56 @@
 .detail {
-	font-size: 16px;
+	font-size: .16rem;
 }
 .imgBox {
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: .2rem;
 }
 .imgBox>.return {
-	width: 30px;
+	width: .3rem;
 	position: absolute;
-	top: 15px;
-	left: 15px;
+	top: .15rem;
+	left: .15rem;
 	z-index: 500;
 	
 }
 .imgBox .shoppingCart {
-	width: 30px;
+	width: .3rem;
 	position: absolute;
-	top: 15px;
-	right: 25px;
+	top: .15rem;
+	right: .25rem;
 	z-index: 500;
 }
 .imgBox>.img_lg {
 	display: block;
 	width: 100%;
-	height:400px;
+	height:4rem;
 }
 .wordsBox {
-	padding: 10px;
+	padding: .1rem;
 }
 .wordsBox>.price {
 	display: block;
 	color: orange;
-	margin-top: 20px;
+	margin-top: .2rem;
 	text-align: right;
 }
 .price>span {
-	font-size: 20px;
+	font-size: .2rem;
 }
 
 .detailFooter {
-	width: 576px;
-	position: absolute;
+	/*width: 5.76rem;*/
+	width: 100%;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	background-color: #eee;
 }
 .detailFooter>div>a {
 	display: inline-block;
-	width: 150px;
-	height: 45px;
-	line-height: 45px;
+	width: 1.5rem;
+	height: .45rem;
+	line-height: .45rem;
 	text-align: center;
 	color: #fff;
 }
